@@ -1,3 +1,4 @@
+
 import os
 import tempfile
 import time
@@ -20,11 +21,9 @@ st.set_page_config(
 
 # Models tried in order if one hits a 503 / high-traffic spike
 MODELS_TO_TRY = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-3.1-pro-preview",
+    "gemini-3.8-flash",
+    "gemini-3.5-flash-lite",
 ]
-
 
 # ---------------------------------------------------------
 # 2. Structured Forensic Report Schema
