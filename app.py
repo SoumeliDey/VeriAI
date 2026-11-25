@@ -20,11 +20,9 @@ st.set_page_config(
 
 # Models tried in order if one hits a 503 / high-traffic spike
 MODELS_TO_TRY = [
-    MODELS_TO_TRY = [
     "gemini-2.5-flash",
     "gemini-2.0-flash",
     "gemini-3.1-pro-preview",
-]
 ]
 
 
